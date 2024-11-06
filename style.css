@@ -132,3 +132,11 @@ tr:hover {
 td {
     border-bottom: 1px solid #e0e0e0;
 }
+.table-month{
+    background-color: lightgrey;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.table-month:hover{
+    color: #000000;
+}
