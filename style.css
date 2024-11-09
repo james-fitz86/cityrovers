@@ -150,3 +150,20 @@ td {
     justify-content: center;
     padding: 5px;
 }
+#skiplink a {
+    padding: 6px;
+    position: absolute;
+    top: -40;
+    left:  0;
+    background-color: #b8e4ca;
+    color: #000000;
+    text-decoration: none;
+    border-bottom-right-radius: 8px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#skiplink a:focus {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
