@@ -55,6 +55,9 @@ aside{
     padding: 1em;
     width: auto;
     margin: 2em auto 2em auto;
+}
+.aside-content{
+    padding: 1em;
     background-color: #3e4f45;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
