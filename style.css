@@ -6,9 +6,9 @@ nav ul{
     list-style: none;
     padding-left: 0;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 0;
+
 }
 #logo{
     max-width: 60px;
@@ -48,10 +48,20 @@ footer { grid-area: footer; }
     "header"
     "nav"
     "main"
+    "aside"
     "footer"
     }
 aside{
-    display:none;
+    padding: 1em;
+    width: auto;
+    margin: 2em auto 2em auto;
+    background-color: #3e4f45;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+aside h2{
+    margin: 0;
 }
 nav a{
     display: block;
@@ -70,8 +80,7 @@ nav a:hover {
     background-color: #3e4f45; 
 }
 nav li{
-    width: 20%;
-    min-width: 6em;
+    display: block;
     text-align: center;
     font-size: 120%;
 }
@@ -153,7 +162,7 @@ td {
 #skiplink a {
     padding: 6px;
     position: absolute;
-    top: -40px;
+    top: -80px;
     left:  0;
     background-color: #b8e4ca;
     color: #000000;
