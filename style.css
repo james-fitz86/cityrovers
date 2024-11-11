@@ -57,6 +57,7 @@ aside{
     margin: 2em auto 2em auto;
 }
 .aside-content{
+    margin-bottom: 1em;
     padding: 1em;
     background-color: #3e4f45;
     border-radius: 8px;
@@ -86,9 +87,6 @@ nav li{
     display: block;
     text-align: center;
     font-size: 120%;
-}
-main{
-    background-color: #ffffff;
 }
 footer{
     text-align:center;
