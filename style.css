@@ -198,6 +198,26 @@ progress::-webkit-progress-bar {
 progress::-moz-progress-bar{
     background-color: #b8e4ca;
 }
+form label{
+    padding-top: 1em;
+}
+button{
+    height: 30px;
+    width: auto;
+    background-color: #b8e4ca;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+form button:hover{
+    background-color: #a9a9a9;
+}
+#button-container{
+    padding-top: 1em;
+    text-align: center;
+}
 @media screen and (min-width: 768px) {
     #wrapper {
         display: grid;
