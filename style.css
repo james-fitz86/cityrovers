@@ -16,7 +16,8 @@ nav ul{
 header{
     padding: 0.5em 0.5em .5em 6em;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 4px rgba(62, 79, 69, 0.7);
     background-color: #b8e4ca;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -68,7 +69,20 @@ aside{
 aside h2{
     margin: 0;
 }
+aside a{
+    text-decoration: none;
+    color: #b8e4ca;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+main a{
+    text-decoration: none;
+    color:#3e4f45;
+    font-size: 1.1em;
+    font-weight: bold;
+}
 nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
     text-decoration: none;
     background-color: #b8e4ca;
@@ -101,6 +115,12 @@ main h2{
 }
 main p{
     font-family: Arial, Helvetica, sans-serif;
+}
+main dl{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main dt{
+    font-weight: bold;
 }
 table {
     width: 100%;
@@ -150,6 +170,7 @@ td {
     color: #000000;
 }
 #youtube-container{
+    padding: 1em;
     display: flex;
     justify-content: center;
 }
@@ -288,7 +309,7 @@ form button:hover{
             font-size: 1.1em;
         }
         main{
-            padding: 1em;
+            padding: 2em;
         }
         h1{
             font-size: 2.1em;
