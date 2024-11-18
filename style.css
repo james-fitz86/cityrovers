@@ -359,3 +359,14 @@ form button:hover{
             font-size: 2.5em;
         }
 }
+@media print {
+    nav{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    #youtube-container{
+        display: none;
+    }
+}
