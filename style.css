@@ -202,7 +202,8 @@ form label{
     padding-top: 1em;
 }
 button{
-    height: 30px;
+    padding: 0.5em;
+    height: auto;
     width: auto;
     background-color: #b8e4ca;
     border-radius: 15px;
@@ -218,6 +219,16 @@ form button:hover{
     padding-top: 1em;
     text-align: center;
 }
+.aside-image{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 767px) {
+    .aside-content{
+        margin: 1em auto;
+        max-width: 50%;
+    }
+    }
 @media screen and (min-width: 768px) {
     #wrapper {
         display: grid;
