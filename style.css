@@ -349,14 +349,17 @@ form button:hover{
         aside{
             height: auto;
         }
-        .aside-content{
-            font-size: 1.1em;
-        }
         main{
             padding: 1em 3em;
         }
         h1{
             font-size: 2.5em;
+        }
+        main p{
+            font-size: 1.1em;
+        }
+        aside p{
+            font-size: 1.1em;
         }
 }
 @media print {
